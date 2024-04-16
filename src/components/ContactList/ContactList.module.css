@@ -1,11 +1,15 @@
-.list {
-  padding: 15px;
+.contactsWrapper {
   width: calc((100% - 15px) /2);
+  padding: 15px;
+}
+
+.list {
   display: flex;
   flex-direction: column;
   gap: 10px;
   overflow-y: scroll;
   scrollbar-width: thin;
+  height: 100%;
 }
 
 .list {
